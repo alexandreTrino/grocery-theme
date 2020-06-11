@@ -1,0 +1,366 @@
+{
+    "menu-item#category-limpieza-y-hogar": {
+      "props": {
+        "id": "menu-item-category-limpieza-y-hogar",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "limpieza-y-hogar",
+          "text": "Limpieza y Hogar"
+        },
+        "iconProps": {
+          "id": "limpieza-y-hogar",
+          "size": 19,
+          "viewBox": "0 0 23 24",
+          "activeClassName": "vtex-icon-menu",
+          "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#category-limpieza-y-hogar"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#category-limpieza-y-hogar": {
+      "props": {
+        "width": "auto",
+        "height": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-limpieza-y-hogar"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-limpieza-y-hogar": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#limpieza-y-hogar-ver-todos",
+        "menu-item#limpieza-y-hogar-accesorios-para-bano",
+        "menu-item#limpieza-y-hogar-aromatizante",
+        "menu-item#limpieza-y-hogar-bolsa",
+        "menu-item#limpieza-y-hogar-calzado",
+        "menu-item#limpieza-y-hogar-casa-y-jardin",
+        "menu-item#limpieza-y-hogar-cloros",
+        "menu-item#limpieza-y-hogar-desechables",
+        "menu-item#limpieza-y-hogar-detergentes",
+        "menu-item#limpieza-y-hogar-empaques",
+        "menu-item#limpieza-y-hogar-escobas-y-trapeadores",
+        "menu-item#limpieza-y-hogar-fibras",
+        "menu-item#limpieza-y-hogar-insecticidas",
+        "menu-item#limpieza-y-hogar-jabones",
+        "menu-item#limpieza-y-hogar-limpiadores",
+        "menu-item#limpieza-y-hogar-palilos-y-popotes",
+        "menu-item#limpieza-y-hogar-papel-higienico",
+        "menu-item#limpieza-y-hogar-servilletas",
+        "menu-item#limpieza-y-hogar-suavizantes",
+        "menu-item#limpieza-y-hogar-toallas-de-rollo"
+      ]
+    },
+  
+    "menu-item#limpieza-y-hogar-ver-todos": {
+      "props": {
+        "id": "menu-item-limpieza-y-hogar-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          "href": "/limpieza-y-hogar",
+          "noFollow": false,
+          "tagTitle": "Ver Todos",
+          "text": "Ver Todos"
+        }
+      }
+    },
+    "menu-item#limpieza-y-hogar-accesorios-para-bano": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-accesorios-para-bano",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/accesorios-para-bano",
+                "noFollow": false,
+                "tagTitle": "Accesorios para Bano",
+                "text": "Accesorios para Bano"
+            }
+        }
+    },
+    "menu-item#limpieza-y-hogar-aromatizante": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-aromatizante",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/aromatizante",
+                "noFollow": false,
+                "tagTitle": "Aromatizante",
+                "text": "Aromatizante"
+            }
+        }
+    },
+    "menu-item#limpieza-y-hogar-bolsa": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-bolsa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/bolsa",
+                "noFollow": false,
+                "tagTitle": "Bolsa",
+                "text": "Bolsa"
+            }
+        }
+    },
+    "menu-item#limpieza-y-hogar-calzado": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-calzado",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/calzado",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado"
+            }
+        }
+    },
+    "menu-item#limpieza-y-hogar-casa-y-jardin": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-casa-y-jardin",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/casa-y-jardin",
+                "noFollow": false,
+                "tagTitle": "Casa y Jardin",
+                "text": "Casa y Jardin"
+            }
+        }
+    },
+    "menu-item#limpieza-y-hogar-cloros": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-cloros",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/cloros",
+                "noFollow": false,
+                "tagTitle": "Cloros",
+                "text": "Cloros"
+            }
+        }
+    },
+    "menu-item#limpieza-y-hogar-desechables": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-desechables",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/desechables",
+                "noFollow": false,
+                "tagTitle": "Desechables",
+                "text": "Desechables"
+            }
+        }
+    },  
+    "menu-item#limpieza-y-hogar-detergentes": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-detergentes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/detergentes",
+                "noFollow": false,
+                "tagTitle": "Detergentes",
+                "text": "Detergentes"
+            }
+        }
+    },  
+    "menu-item#limpieza-y-hogar-empaques": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-empaques",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/empaques",
+                "noFollow": false,
+                "tagTitle": "Empaques",
+                "text": "Empaques"
+            }
+        }
+    },  
+    "menu-item#limpieza-y-hogar-escobas-y-trapeadores": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-escobas-y-trapeadores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/escobas-y-trapeadores",
+                "noFollow": false,
+                "tagTitle": "Escobas y Trapeadores",
+                "text": "Escobas y Trapeadores"
+            }
+        }
+    },  
+    "menu-item#limpieza-y-hogar-fibras": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-fibras",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/fibras",
+                "noFollow": false,
+                "tagTitle": "Fibras",
+                "text": "Fibras"
+            }
+        }
+    },  
+    "menu-item#limpieza-y-hogar-insecticidas": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-insecticidas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/insecticidas",
+                "noFollow": false,
+                "tagTitle": "Insecticidas",
+                "text": "Insecticidas"
+            }
+        }
+    },  
+    "menu-item#limpieza-y-hogar-jabones": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-jabones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/jabones",
+                "noFollow": false,
+                "tagTitle": "Jabones",
+                "text": "Jabones"
+            }
+        }
+    },  
+    "menu-item#limpieza-y-hogar-limpiadores": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-limpiadores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/limpiadores",
+                "noFollow": false,
+                "tagTitle": "Limpiadores",
+                "text": "Limpiadores"
+            }
+        }
+    }, 
+    "menu-item#limpieza-y-hogar-palilos-y-popotes": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-palilos-y-popotes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/palilos-y-popotes",
+                "noFollow": false,
+                "tagTitle": "Palilos y Popotes",
+                "text": "Palilos y Popotes"
+            }
+        }
+    },  
+    "menu-item#limpieza-y-hogar-papel-higienico": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-papel-higienico",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/papel-higienico",
+                "noFollow": false,
+                "tagTitle": "Papel Higienico",
+                "text": "Papel Higienico"
+            }
+        }
+    },  
+    "menu-item#limpieza-y-hogar-servilletas": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-servilletas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/servilletas",
+                "noFollow": false,
+                "tagTitle": "Servilletas",
+                "text": "Servilletas"
+            }
+        }
+    },
+    "menu-item#limpieza-y-hogar-suavizantes": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-suavizantes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/suavizantes",
+                "noFollow": false,
+                "tagTitle": "Suavizantes",
+                "text": "Suavizantes"
+            }
+        }
+    },  
+    "menu-item#limpieza-y-hogar-toallas-de-rollo": {
+        "props": {
+            "id": "menu-item-limpieza-y-hogar-toallas-de-rollo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/toallas-de-rollo",
+                "noFollow": false,
+                "tagTitle": "Toallas de Rolloo",
+                "text": "Toallas de Rollo"
+            }
+        }
+    }
+    
+    
+}

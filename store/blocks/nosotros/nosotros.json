@@ -1,0 +1,53 @@
+{
+  "store.custom#nosotros": {
+    "blocks": [
+      "flex-layout.row#nosotros",
+      "flex-layout.row#tabs-nosotros"
+    ]
+  },
+  "flex-layout.row#nosotros": {
+    "children": [
+      "flex-layout.col#text-nosotros"
+    ]
+  },
+  "flex-layout.col#text-nosotros": {
+    "children": [
+      "rich-text#title-nosotros",
+      "rich-text#nosotros"
+    ],
+    "props": {
+      "blockclass": "text-column",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-nosotros": {
+    "props": {
+      "text":"# Nuestra História",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#nosotros": {
+    "props": {
+      "text": "Calimax nace en 1939 como una tienda de abarrotes y carnes en la calle 5ta de la zona centro de Tijuana, Baja California. Fue a principios de 1962 cuando nace el concepto Calimax, con su primer tienda tipo supermercado, ubicada en el Blvd. Díaz Ordaz y Abelardo L. Rodríguez. \n Calimax está ubicada en el noroeste de México, en las ciudades de Tijuana, Mexicali, Ensenada, Rosarito y Tecate, en el estado de Baja California y en San Luis Río Colorado, Sonora. Actualmente la cadena cuenta con 81 sucursales **CALIMAX**, 1 tienda de mayoreo llamado **BODEGÓN**, 16 tiendas llamadas **APRECIO** y tres Centros de Distribución, ubicados en Tijuana B.C., Sonora y San Diego USA, con capacidad para abastecer el crecimiento de la cadena a más tiendas en el futuro. \n Opera más de 20,000 artículos para la venta, de los cuales el 30% son productos de importación generalmente de U.S.A., y cuenta con más de 6,000 colaboradores.\n El Centro de Distribución de Calimax, uno de los más modernos del país, ha sido factor importante en la planeación del crecimiento de la cadena, así como la flotilla de más de 200 de camiones que surten diariamente las necesidades de cada tienda. Cuenta también con una moderna Planta Procesadora de Carne, la cual se garantiza la calidad y frescura de los productos cárnicos que ofrece la cadena.\n Grupo Calimax tiene un celebrado “joint venture” con Smart & Final Inc., empresa que cuenta con 15 sucursales en Baja California y San Luis Río Colorado, Sonora.",
+      "blockClass": "about"
+    }
+  },
+  "flex-layout.row#tabs-nosotros":{
+    "children":["tab-layout#institucional"],
+    "props":{
+      "blockClass":"tab-layout__about-us"
+    }
+  },
+  "flex-layout.row#title-timeline":{
+    "children":["rich-text#title-timeline"],
+    "props":{
+      "blockClass":"tab-layout__title-about-us"
+    }
+  },
+  "rich-text#title-timeline": {
+    "props": {
+      "text": "## Maraga a través de los años.",
+      "blockClass": "timeline-title"
+    }
+  }
+}

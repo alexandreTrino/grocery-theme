@@ -1,0 +1,33 @@
+{
+    "store.custom#ofertas-de-hoy":{
+        "blocks":[
+            "flex-layout.row#row-text-ofertas-de-hoy"
+        ]
+    },
+    "flex-layout.row#row-text-ofertas-de-hoy":{
+        "children":["flex-layout.col#col-ofertas-de-hoy"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "flex-layout.col#col-ofertas-de-hoy":{
+        "children":[
+            "rich-text#ofertas-de-hoy",
+            "iframe#ofertas-de-hoy"
+        ]
+    },
+    "rich-text#ofertas-de-hoy": {
+        "props": {
+            "text": "# Ofertas de Hoy",
+            "blockClass": "text"
+        }
+    },
+    "iframe#ofertas-de-hoy":{
+        "props":{
+            "src":"https://online.fliphtml5.com/qvrn/lslp/",
+            "width":"1480",
+            "height":"1400",
+            "title":"Nuestro Catálogo"
+        }
+    }
+}

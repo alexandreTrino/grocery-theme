@@ -1,0 +1,87 @@
+{
+    "store.custom#preguntas-frecuentes": {
+        "blocks": [
+            "flex-layout.row#preguntas-frecuentes"
+        ]
+    },
+
+    "flex-layout.row#preguntas-frecuentes": {
+        "children": [
+            "flex-layout.col#text-preguntas-frecuentes"
+        ]
+    },
+
+    "flex-layout.col#text-preguntas-frecuentes": {
+        "children": [
+            "rich-text#title-preguntas-frecuentes",
+            "rich-text#pregunta-01",
+            "rich-text#pregunta-02",
+            "rich-text#pregunta-03",
+            "rich-text#pregunta-04",
+            "rich-text#pregunta-05",
+            "rich-text#pregunta-06",
+            "rich-text#pregunta-07",
+            "rich-text#pregunta-08"
+        ],
+        "props": {
+            "blockclass": "text-column",
+            "preventVerticalStretch": true
+        }
+    },
+
+    "rich-text#title-preguntas-frecuentes": {
+        "props": {
+            "text":"# Preguntas Frecuentes",
+            "blockClass": "title"
+        }
+    },
+    "rich-text#pregunta-01": {
+        "props": {
+            "text":"## ¿Cuánto tiempo es de envío? ¿Cuál es el tiempo de entrega? \n\n El tiempo de entrega es de 2 a 3 días hábiles, una vez acreditado su pago. En ciertas zonas puede ser mayor el tiempo ya que las paqueterías cuentan con frecuencia de entrega.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-02": {
+        "props": {
+            "text":"## ¿Cómo aplico meses sin intereses \n\n Al ingresar tus datos bancarios, te deberá aparecer la opción de Meses Sin Intereses con tarjetas participantes. Recuerda que esto puede variar con las restricciones de cada compra (Banco, monto mínimo y promoción)?",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-03": {
+        "props": {
+            "text":"## El producto no es lo que pedí, ¿qué debo hacer? \n\n Contáctanos a nuestro Centro de Atención a Clientes, tienes hasta cinco días hábiles a partir de que fue entregado el producto por la paqueteria. Nosotros recogeremos el artículo en la dirección de entrega que se nos proporcionó. Es importante que conserves el empaque original en buen estado, así como el producto y accesorios incluidos. De esta manera no habrá ningún incoveniente para efectuar tu devolución.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-04": {
+        "props": {
+            "text":"## ¿Puedo recoger mi compra en alguna sucursal? \n\n Si eliges la opción de Entrega en tienda y seleccionas la sucursal más cercana. Recoge tu producto en un lapso no mayor a 20 días naturales.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-05": {
+        "props": {
+            "text":"## ¿Puedo seleccionar la empresa de mensajería que entregue mi compra? \n\n No, nosotros asignaremos la paqueteria con la cual será enviada tu mercancía.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-06": {
+        "props": {
+            "text":"## El producto no me gustó, ¿qué debo hacer? \n\n Contáctanos a nuestro Centro de Atención a Clientes, tienes hasta 3 días hábiles a partir de que fue entregado el producto por la paqueteria.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-07": {
+        "props": {
+            "text":"## Ya no quiero mi producto, ¿qué debo hacer? \n\n Contáctanos a nuestro Centro de Atención a Clientes, tienes hasta 3 días hábiles a partir de que fue entregado el producto por la paqueteria. \n Es importante que conserves el empaque original en buen estado, así como el producto y accesorios incluidos. De esta manera no habrá ningún incoveniente para efectuar tu devolución.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-08": {
+        "props": {
+            "text":"## El producto no coincide con la descripción de la página, ¿qué debo hacer? \n\n PContáctanos a nuestro Centro de Atención a Clientes, tienes hasta 3 días hábiles a partir de que fue entregado el producto por la paqueteria. \n Es importante que conserves el empaque original en buen estado, así como el producto y accesorios incluidos. De esta manera no habrá ningún incoveniente para efectuar tu devolución.",
+            "blockClass": "about"
+        }
+    }
+
+}

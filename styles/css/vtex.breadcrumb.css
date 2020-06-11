@@ -1,0 +1,8 @@
+.homeLink::before {
+    content: "Inicio";
+    position: relative;
+    top: -2px;
+}
+.homeIcon{
+    display: none;
+}

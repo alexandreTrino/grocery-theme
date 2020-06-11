@@ -1,0 +1,90 @@
+.selectStoreButton {
+    width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--col-store-selector) :global(.vtex-button) {
+    background: rgba(0,0,0,.08);
+    transition: all .12s linear;
+    height: 40px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--col-store-selector) :global(.vtex-button__label) {
+    flex-direction: column;
+    font-weight: 700;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--col-store-selector){
+    align-items: center;
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+.selectStoreButton{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.mainButtonSelectedStoreText {
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+
+.mainButtonWelcomeText {
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+}
+
+.mainButtonSelectedStoreChangeText {
+    font-size: 8px;
+    margin-top: 3px;
+    text-transform: initial;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-mobile-store-selector) .mainButtonSelectedStoreChangeText {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 5%;
+    background: rgba(0,0,0,.1);
+    transition: all .12s linear;
+    font-size: 0;
+}
+
+.selectStoreButton{
+    border-radius: 5px;
+    transition: all .12s linear;
+}
+
+.selectStoreButton:hover {
+    box-shadow: 0 6px 8px -6px rgba(0,0,0,.5);
+}
+
+.selectStoreButton :global(.vtex-button__label) {
+    flex-direction: row;
+} 
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-mobile-store-selector) .selectStoreButton :global(.vtex-button__label){
+    justify-content: flex-start;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-mobile-store-selector) .selectStoreButton :global(.vtex-button) .mainButtonSelectedStoreChangeText::before {
+    content: "Cambiar";
+    font-size: 12px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-header-store-selector) .selectStoreButton{
+    justify-content: flex-start;
+} 
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-header-store-selector) .selectStoreButton :global(.vtex-button){
+    width: 100%!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-header-store-selector) .selectStoreButton :global(.vtex-button__label){
+    justify-content: flex-start;
+}

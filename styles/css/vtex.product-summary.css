@@ -1,0 +1,84 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  } 
+}
+
+.clearLink{
+  text-decoration: none!important;
+}
+
+.nameContainer {
+  justify-content: start;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.brandName {
+  font-weight: 600;
+  font-size: 18px;
+  color: #2E2E2E;
+}
+
+.container {
+  text-align: start;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.image {
+  border-radius: 0.25rem;
+}
+
+.imageNormal{
+  height: 100%!important;
+  width: auto!important;
+  margin: 0 auto;
+}
+
+.element{
+  padding: 0;
+}
+
+.element :global(.vtex-button){
+  background-color: #055d9e;
+  border-color:#055d9e;
+  transition: all .12s linear;
+  width:95%;
+  float:right
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-tab-layout)
+  .element 
+:global(.vtex-button){
+    width: 100%;
+}
+
+.element :global(.vtex-button) :global(.vtex-button__label){
+  padding: 0;
+}
+
+.element :global(.vtex-button):hover{
+  background-color: green!important;
+  border-color:green!important;
+}
+
+.element:hover :global(.vtex-button){
+  background-color: #0066b3;
+  border-color:#0066b3;
+}

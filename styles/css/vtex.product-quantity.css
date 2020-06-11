@@ -1,0 +1,48 @@
+
+@media only screen and (max-width:1023px){
+    :global(.vtex-flex-layout-0-x-flexCol--col-summary-qtd) :global(.vtex-numeric-stepper__minus-button),
+    :global(.vtex-flex-layout-0-x-flexCol--col-summary-qtd) :global(.vtex-numeric-stepper__plus-button){
+        width: 2.2rem!important;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    :global(.vtex-flex-layout-0-x-flexCol--col-summary-qtd) :global(.vtex-numeric-stepper__minus-button),
+    :global(.vtex-flex-layout-0-x-flexCol--col-summary-qtd) :global(.vtex-numeric-stepper__plus-button){
+        width: 20px!important;
+        height: 20px!important;
+        outline: none!important;
+        position: absolute;
+        left: 0;
+        border-width: 1px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--col-summary-qtd) :global(.vtex-numeric-stepper__plus-button){
+        top:0;
+        border-radius: 5px 0 0 0!important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--col-summary-qtd) :global(.vtex-numeric-stepper__minus-button){
+        bottom:0;
+        border-radius: 0 0 0 5px!important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--col-summary-qtd) :global(.vtex-numeric-stepper__input){
+        width: 3.5rem!important;
+        height:40px!important;
+        outline: none!important;
+        margin-left:1rem;
+        border-width: 1px;
+        border-width: 1px;
+        font-size: 12px;
+        border-radius: 0 5px 5px 0;
+    }
+
+    :global(.vtex-numeric-stepper-wrapper){
+        position: relative;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--col-summary-qtd) .quantitySelectorContainer{
+        margin-bottom: 0!important;
+    }
+}

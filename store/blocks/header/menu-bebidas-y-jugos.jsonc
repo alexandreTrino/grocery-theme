@@ -1,0 +1,174 @@
+{
+    "menu-item#category-bebidas-y-jugos": {
+      "props": {
+        "id": "menu-item-category-bebidas-y-jugos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "bebidas-y-jugos",
+          "text": "Bebidas y Jugos"
+        },
+        "iconProps": {
+          "id": "bebidas-y-jugos",
+          "size": 20,
+          "viewBox": "0 0 17 17",
+          "activeClassName": "vtex-icon-menu",
+          "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#category-bebidas-y-jugos"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#category-bebidas-y-jugos": {
+      "props": {
+        "width": "auto",
+        "height": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-bebidas-y-jugos"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-bebidas-y-jugos": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#bebidas-y-jugos-ver-todos",
+        "menu-item#bebidas-y-jugos-bebidas",
+        "menu-item#bebidas-y-jugos-concentrados",
+        "menu-item#bebidas-y-jugos-jugos",
+        "menu-item#bebidas-y-jugos-leches",
+        "menu-item#bebidas-y-jugos-naturista",
+        "menu-item#bebidas-y-jugos-refresco",
+        "menu-item#bebidas-y-jugos-te-listo-para-beber"
+      ]
+    },
+  
+    "menu-item#bebidas-y-jugos-ver-todos": {
+      "props": {
+        "id": "menu-item-bebidas-y-jugos-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          "href": "/bebidas-y-jugos",
+          "noFollow": false,
+          "tagTitle": "Ver Todos",
+          "text": "Ver Todos"
+        }
+      }
+    },
+    "menu-item#bebidas-y-jugos-bebidas": {
+        "props": {
+            "id": "menu-item-bebidas-y-jugos-bebidas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/bebidas",
+                "noFollow": false,
+                "tagTitle": "Bebidas",
+                "text": "Bebidas"
+            }
+        }
+    },
+    "menu-item#bebidas-y-jugos-concentrados": {
+        "props": {
+            "id": "menu-item-bebidas-y-jugos-concentrados",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/concentrados",
+                "noFollow": false,
+                "tagTitle": "Concentrados",
+                "text": "Concentrados"
+            }
+        }
+    },
+    "menu-item#bebidas-y-jugos-jugos": {
+        "props": {
+            "id": "menu-item-bebidas-y-jugos-jugos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/jugos",
+                "noFollow": false,
+                "tagTitle": "Jugos",
+                "text": "Jugos"
+            }
+        }
+    },
+    "menu-item#bebidas-y-jugos-leches": {
+        "props": {
+            "id": "menu-item-bebidas-y-jugos-leches",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/leches",
+                "noFollow": false,
+                "tagTitle": "Leches",
+                "text": "Leches"
+            }
+        }
+    },
+    "menu-item#bebidas-y-jugos-naturista": {
+        "props": {
+            "id": "menu-item-bebidas-y-jugos-naturista",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/naturista",
+                "noFollow": false,
+                "tagTitle": "Naturista",
+                "text": "Naturista"
+            }
+        }
+    },
+    "menu-item#bebidas-y-jugos-refresco": {
+        "props": {
+            "id": "menu-item-bebidas-y-jugos-refresco",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/refresco",
+                "noFollow": false,
+                "tagTitle": "Refresco",
+                "text": "Refresco"
+            }
+        }
+    },
+    "menu-item#bebidas-y-jugos-te-listo-para-beber": {
+        "props": {
+            "id": "menu-item-bebidas-y-jugos-te-listo-para-beber",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/te-listo-para-beber",
+                "noFollow": false,
+                "tagTitle": "Té Listo para Beber",
+                "text": "Té Listo para Beber"
+            }
+        }
+    }
+        
+    
+}

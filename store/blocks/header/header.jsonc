@@ -1,0 +1,273 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxSuggestedProducts": 2
+    }
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"],
+    "props":{
+      "maxSuggestedProducts":2,
+      "__unstableProductOriginVtex": "VTEX"
+    }
+  },
+
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#telemarketing-desktop",
+      "sticky-layout#4-desktop"
+    ]
+  },
+  "flex-layout.col#login":{
+    "children":[
+      "login"
+    ],
+    "props":{
+      "blockClass":"col-login"
+    }
+  },
+  "flex-layout.col#minicart":{
+    "children":[
+      "minicart.v2"
+    ],
+    "props":{
+      "blockClass":"col-minicart"
+    }
+  },
+  "login":{
+    "props": {
+        "showIconProfile": true,
+        "iconLabel": "Login"
+    }
+},
+  "flex-layout.row#telemarketing-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#drawer",
+      "flex-layout.col#search",
+      "flex-layout.col#store-selector",
+      "flex-layout.col#login",
+      "flex-layout.col#minicart"
+    ]
+  },
+  "flex-layout.col#drawer": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "drawer",
+      "width": "20%"
+    },
+    "children": ["drawer"]
+  },
+  "flex-layout.col#search": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass":"col-search",
+      "width": "grow"
+    },
+    "children": ["search-bar"]
+  },
+  "flex-layout.col#store-selector":{
+    "props":{
+      "blockClass":"col-store-selector"
+    },
+    "children":["store-selector#header"]
+  },
+  "store-selector#header":{
+    "props":{}
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo-calimax-mx.png",
+      "width": "150"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#row-header-mobile-store-selector",
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "flex-layout.row#row-header-mobile-store-selector":{
+    "children":["flex-layout.col#col-header-mobile-store-selector"],
+    "props":{
+      "blockClass":"row-header-store-selector"
+    }
+  },
+  "flex-layout.col#col-header-mobile-store-selector":{
+    "children":[
+      "store-selector#header-mobile"
+    ]
+  },
+  "store-selector#header-mobile":{
+    "props":{}
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile","flex-layout.row#search-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer#mobile",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "flex-layout.col#login",
+      "flex-layout.col#minicart"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#search-mobile":{
+    "children":["search-bar"],
+    "props":{
+      "blockClass":"search-mobile"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"],
+    "props":{
+      "maxWidth":"307px"
+    }
+  },
+  "drawer#mobile": {
+    "children": ["menu#drawer-mobile"],
+    "props":{
+      "maxWidth":"307px"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo-calimax-mx.png",
+      "width":"140"
+    }
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#main-label",
+      "menu-item#category-despensa",
+      "menu-item#category-lacteos-y-huevos",
+      "menu-item#category-frutas-y-verduras",
+      "menu-item#category-bebidas-y-jugos",
+      "menu-item#category-carnes-pescados-y-mariscos",
+      "menu-item#category-salchichoneria",
+      "menu-item#category-cocina-pronto",
+      "menu-item#category-gourmet",
+      "menu-item#category-cervezas-vinos-y-licores",
+      "menu-item#category-alimentos-congelados",
+      "menu-item#category-limpieza-y-hogar",
+      "menu-item#category-bebes-y-maternidad",
+      "menu-item#category-farmacia",
+      "menu-item#category-cuidado-personal-y-belleza",
+      "menu-item#category-mascotas",
+      "menu-item#category-ferreteria-y-automotriz"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu#drawer-mobile": {
+    "children": [
+      "flex-layout.row#row-mobile-store-selector",
+      "menu-item#main-label",
+      "menu-item#category-despensa",
+      "menu-item#category-lacteos-y-huevos",
+      "menu-item#category-frutas-y-verduras",
+      "menu-item#category-bebidas-y-jugos",
+      "menu-item#category-carnes-pescados-y-mariscos",
+      "menu-item#category-salchichoneria",
+      "menu-item#category-cocina-pronto",
+      "menu-item#category-gourmet",
+      "menu-item#category-cervezas-vinos-y-licores",
+      "menu-item#category-alimentos-congelados",
+      "menu-item#category-limpieza-y-hogar",
+      "menu-item#category-bebes-y-maternidad",
+      "menu-item#category-farmacia",
+      "menu-item#category-cuidado-personal-y-belleza",
+      "menu-item#category-mascotas",
+      "menu-item#category-ferreteria-y-automotriz"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "flex-layout.row#row-mobile-store-selector":{
+    "children":[
+      "flex-layout.col#store-selector"
+    ],
+    "props":{
+      "blockClass":"row-mobile-store-selector"
+    }
+  },
+  "menu-item#main-label":{
+    "props": {
+      "id": "menu-item-main-label",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Categorías",
+        "text": "Categorías"
+      },
+      "blockClass": "menu-title"
+    }
+  }
+
+}

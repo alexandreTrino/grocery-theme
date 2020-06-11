@@ -1,0 +1,125 @@
+{
+    "menu-item#category-bebes-y-maternidad": {
+      "props": {
+        "id": "menu-item-category-bebes-y-maternidad",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "bebes-y-maternidad",
+          "text": "Bebés y Maternidad"
+        },
+        "iconProps": {
+          "id": "bebes-y-maternidad",
+          "size": 19,
+          "viewBox": "0 0 25 25",
+          "activeClassName": "vtex-icon-menu",
+          "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#category-bebes-y-maternidad"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#category-bebes-y-maternidad": {
+      "props": {
+        "width": "auto",
+        "height": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-bebes-y-maternidad"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-bebes-y-maternidad": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#bebes-y-maternidad-ver-todos",
+        "menu-item#bebes-y-maternidad-accesorios",
+        "menu-item#bebes-y-maternidad-alimentos",
+        "menu-item#bebes-y-maternidad-leches",
+        "menu-item#bebes-y-maternidad-panales"
+      ]
+    },
+  
+    "menu-item#bebes-y-maternidad-ver-todos": {
+      "props": {
+        "id": "menu-item-bebes-y-maternidad-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          "href": "/bebes-y-maternidad",
+          "noFollow": false,
+          "tagTitle": "Ver Todos",
+          "text": "Ver Todos"
+        }
+      }
+    },
+    "menu-item#bebes-y-maternidad-accesorios": {
+        "props": {
+            "id": "menu-item-bebes-y-maternidad-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#bebes-y-maternidad-alimentos": {
+        "props": {
+            "id": "menu-item-bebes-y-maternidad-alimentos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/alimentos",
+                "noFollow": false,
+                "tagTitle": "Alimentos",
+                "text": "Alimentos"
+            }
+        }
+    },
+    "menu-item#bebes-y-maternidad-leches": {
+        "props": {
+            "id": "menu-item-bebes-y-maternidad-leches",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/leches",
+                "noFollow": false,
+                "tagTitle": "Leches",
+                "text": "Leches"
+            }
+        }
+    },
+    "menu-item#bebes-y-maternidad-panales": {
+        "props": {
+            "id": "menu-item-bebes-y-maternidad-panales",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/panales",
+                "noFollow": false,
+                "tagTitle": "Pañales",
+                "text": "Pañales"
+            }
+        }
+    }
+    
+}

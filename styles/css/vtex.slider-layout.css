@@ -1,0 +1,85 @@
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+.sliderLayoutContainer {
+  justify-content: center;
+}
+
+.sliderTrackContainer {
+  max-width: 1520px;
+}
+
+.paginationDot--isActive{
+  background-color: #0066b3;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.sliderLayoutContainer{
+  padding-bottom: 10px;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slideChildrenContainer--shelf,
+:global(.vtex-search-result-3-x-galleryItem) :global(.vtex-product-summary-2-x-containerNormal){
+  border:1px solid #ddd;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  transition: all .12s linear;
+  max-width: 100%!important;
+}
+
+.slideChildrenContainer--shelf:hover,
+:global(.vtex-search-result-3-x-galleryItem) :global(.vtex-product-summary-2-x-containerNormal):hover{
+  border-color:#0066b3
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.sliderArrows{
+  border-radius: 40px;
+  overflow: hidden;
+  height: 40px;
+  width: 40px;
+  margin-top: -10px;
+  transition: all .12s linear;
+}
+
+.slideChildrenContainer--carousel .sliderArrows{
+  color:#fff
+}
+
+.sliderArrows:hover{
+  background-color: #0066b3!important;
+  color:#ffffff
+}
+
+.caretIcon{
+  width: 20px;
+  height: 20px;
+}
+
+.sliderTrack--brands{
+  padding: 2%;
+}
+
+.sliderLayoutContainer--brands{
+  padding-bottom: 0;
+}

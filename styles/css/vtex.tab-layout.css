@@ -1,0 +1,7 @@
+.listContainer{
+    margin-bottom: 20px;
+}
+
+.listContainer--tablist-institucional{
+    justify-content: flex-start;
+}

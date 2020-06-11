@@ -1,0 +1,343 @@
+{
+  "vtex.menu@2.x:menu#institucional": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#title-01",
+      "menu-item#quiene-somos",
+      "menu-item#cambios-y-devoluciones",
+      "menu-item#preguntas-frecuentes"
+    ]
+  },
+  "menu-item#title-01": {
+    "props": {
+      "id": "menu-item-title-01",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Centro de Ayuda",
+        "text": "Centro de Ayuda"
+      },
+      "blockClass":"footer-title-menu"
+    }
+  },
+  "menu-item#quiene-somos": {
+    "props": {
+      "id": "menu-item-quiene-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "QuieneSomos",
+        "text": "¿Quienes Somos?"
+      }
+    }
+  },
+
+  "menu-item#cambios-y-devoluciones": {
+    "props": {
+      "id": "menu-item-cambios-y-devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "tagTitle": "Cámbios y Devoluciones",
+        "text": "Cambios y Devoluciones"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-soporte": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#title-03",
+      "menu-item#facturacion",
+      "menu-item#terminos",
+      "menu-item#garantias"
+    ]
+  },
+
+  "menu-item#title-03": {
+    "props": {
+      "id": "menu-item-title-03",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "SoporteCliente",
+        "text": "Soporte al cliente"
+      },
+      "blockClass":"footer-title-menu"
+    }
+  },
+
+  "menu-item#terminos": {
+    "props": {
+      "id": "menu-item-terminos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": true,
+        "tagTitle": "terminos",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+
+  "menu-item#facturacion": {
+    "props": {
+      "id": "menu-item-facturacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://proveedor.calimax.com.mx/",
+        "noFollow": true,
+        "tagTitle": "Facturación",
+        "text": "Facturación"
+      }
+    }
+  },
+
+  "menu-item#garantias": {
+    "props": {
+      "id": "menu-item-garantias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/garantias",
+        "noFollow": true,
+        "tagTitle": "garantias",
+        "text": "Garantias"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-atencion": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#title-02",
+      "menu-item#sucursales",
+      "menu-item#seguridad",
+      "menu-item#ofertas-de-hoy",
+      "menu-item#llamanos"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#institucional-mobile",
+      "menu-item#soporte-mobile",
+      "menu-item#soporte-al-cliente"
+    ]
+  },
+
+  "menu-item#institucional-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Centro de Ayuda",
+        "text": "Centro de Ayuda"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#institucional"]
+  },
+  "vtex.menu@2.x:submenu.accordion#institucional": {
+    "children": ["vtex.menu@2.x:menu#institucional-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#institucional-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quiene-somos",
+      "menu-item#cambios-y-devoluciones",
+      "menu-item#preguntas-frecuentes"
+    ]
+  },
+
+  "menu-item#soporte-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Atención al Cliente",
+        "text": "Atención al Cliente"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#soporte"]
+  },
+  "vtex.menu@2.x:submenu.accordion#soporte": {
+    "children": ["vtex.menu@2.x:menu#soporte-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#soporte-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sucursales",
+      "menu-item#seguridad",
+      "menu-item#ofertas-de-hoy",
+      "menu-item#llamanos"
+    ]
+  },
+
+  "menu-item#soporte-al-cliente": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Soporte al cliente",
+        "text": "Soporte al cliente"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-soporte-al-cliente"]
+  },
+
+  "vtex.menu@2.x:menu#footer-soporte-al-cliente": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#facturacion",
+      "menu-item#terminos",
+      "menu-item#garantias"
+    ]
+  },
+
+  "menu-item#title-02": {
+    "props": {
+      "id": "menu-item-title-02",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "AtencionCliente",
+        "text": "Atención al cliente"
+      },
+      "blockClass":"footer-title-menu"
+    }
+  },
+
+  "menu-item#sucursales": {
+    "props": {
+      "id": "menu-item-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursales",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      }
+    }
+  },
+
+  "menu-item#seguridad": {
+    "props": {
+      "id": "menu-item-seguridad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguridad",
+        "noFollow": false,
+        "tagTitle": "Seguridad",
+        "text": "Seguridad"
+      }
+    }
+  },
+
+  "menu-item#ofertas-de-hoy": {
+    "props": {
+      "id": "menu-item-contactanos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ofertas-de-hoy",
+        "noFollow": false,
+        "tagTitle": "Ofertas de Hoy",
+        "text": "Ofertas de Hoy"
+      }
+    }
+  },
+
+  "menu-item#llamanos": {
+    "props": {
+      "id": "menu-item-llamanos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "llamanos",
+        "text": "Llamanos al 55.5908.0607"
+      }
+    }
+  },
+
+  "menu-item#preguntas-frecuentes": {
+    "props": {
+      "id": "menu-item-preguntas-frecuentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "PreguntasFrecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  }
+}

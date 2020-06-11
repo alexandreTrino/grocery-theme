@@ -1,0 +1,23 @@
+{
+  "store.custom#nosotros": {
+    "path": "/quienes-somos"
+  },
+  "store.custom#terminos-y-condiciones":{
+    "path":"/terminos-y-condiciones"
+  },
+  "store.custom#catalogo": {
+    "path": "/catalogo"
+  },
+  "store.custom#preguntas-frecuentes":{
+    "path":"/preguntas-frecuentes"
+  },
+  "store.custom#seguridad":{
+    "path":"/seguridad"
+  },
+  "store.custom#ofertas-de-hoy":{
+    "path":"/ofertas-de-hoy"
+  },
+  "store.custom#politica-de-privacidad":{
+    "path":"store.custom#politica-de-privacidad"
+  }
+}

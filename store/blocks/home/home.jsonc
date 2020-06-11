@@ -1,0 +1,504 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#main-slider-banner",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+       "flex-layout.row#brands",
+      "flex-layout.row#shelf-title",
+      "flex-layout.row#home-row-banners-02",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#home-row-banners-03",
+      "flex-layout.row#tab-layout",
+      "flex-layout.row#shelf-title-2",
+      "flex-layout.row#home-row-banners-04",
+      "flex-layout.row#shelf-title-3",
+      "flex-layout.row#home-row-banners-05"
+    ]
+  },
+
+  "flex-layout.row#main-slider-banner": {
+    "children": [
+      "flex-layout.col#main-slider",
+      "flex-layout.col#main-banner"
+    ],
+    "props": {
+      "blockClass":"rowGalleryGrid",
+      "colGap":"4"
+    }
+  },
+
+  "flex-layout.col#main-slider": {
+    "children": [
+      "list-context.image-list#demo"
+    ],
+    "props": {
+      "width": "70%",
+      "blockClass": "main-slider"
+    }
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "blockClass": "",
+      "height": 720,
+      "images": [
+        {
+          "image": "https://calimaxmx.vtexassets.com/arquivos/full-banner-haz-la-cuenta.jpg",
+          "mobileImage": "https://calimaxmx.vtexassets.com/arquivos/full-banner-haz-la-cuenta__mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": ["carousel","banner"]
+    }
+  },
+
+  "flex-layout.col#main-banner": {
+    "children":["image#main-banner"],
+    "props": {
+      "width": "29%",
+      "blockClass": "main-banner"
+    }
+  },
+
+  "image#main-banner":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/mini-banner-prueba-baja.jpg"
+    }
+  },
+
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "flex-layout.row#brands":{
+    "children":["slider-layout#brands"],
+    "props":{
+      "blockClass":"row-brands"
+    }
+  },
+
+  "slider-layout#brands": {
+    "children": [
+      "flex-layout.row#brand1",
+      "flex-layout.row#brand2",
+      "flex-layout.row#brand3",
+      "flex-layout.row#brand4",
+      "flex-layout.row#brand5",
+      "flex-layout.row#brand6",
+      "flex-layout.row#brand7"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "phone": 2,
+        "tablet": 4
+      },
+      "navigationStep": 1,
+      "showPaginationDots": "never",
+      "infinite": false,
+      "blockClass": "brands"
+    }
+  },
+
+  "flex-layout.row#shelf-title":{
+    "children":["rich-text#shelf-title"],
+    "props":{
+      "blockClass":"shelf-title-row"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Sabores ideales para tu mesa",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#home-row-banners-01":{
+    "children":["image#home-banner-01"],
+    "props": {
+      "blockClass": "rowGalleryGrid"
+    }
+  },
+
+  "flex-layout.row#home-row-banners-02":{
+    "children":[
+      "flex-layout.col#home-col01-banners-02",
+      "flex-layout.col#home-col02-banners-02"
+    ],
+    "props":{
+      "blockClass":"rowGalleryGrid"
+    }
+  },
+
+  "flex-layout.col#home-col01-banners-02":{
+    "children":[
+      "image#home-banner-02"
+    ],
+    "props":{
+      "width": "grow",
+      "blockClass":"ColSmallGalleryGrid"
+    }
+  },
+
+  "flex-layout.col#home-col02-banners-02":{
+    "children":[
+      "flex-layout.row#home-subrow-banners-02"
+    ],
+    "props":{
+      "width": "41%",
+      "blockClass":["ColSmallGalleryGrid","ColSmallGalleryGridRight"]
+    }
+  },
+
+  "flex-layout.row#home-subrow-banners-02":{
+    "children":[
+      "image#home-banner-03",
+      "image#home-banner-04"
+    ],
+    "props":{
+      "blockClass":["subRowGalleryGrid","subRowGalleryGridRight"]
+    }
+  },
+
+  "flex-layout.row#home-row-banners-03":{
+    "children":[
+      "flex-layout.col#home-col01-banners-03",
+      "flex-layout.col#home-col02-banners-03"
+    ],
+    "props":{
+      "blockClass":"rowGalleryGrid"
+    }
+  },
+
+  "flex-layout.col#home-col01-banners-03":{
+    "children":[
+      "flex-layout.row#home-subrow-banners-03"
+    ],
+    "props":{
+      "width": "41%",
+      "blockClass":["ColSmallGalleryGrid","ColSmallGalleryGridLeft"]
+    }
+  },
+
+  "flex-layout.row#home-subrow-banners-03":{
+    "children":[
+      "image#home-banner-05",
+      "image#home-banner-06"
+    ],
+    "props":{
+      "blockClass":"subRowGalleryGrid"
+    }
+  },
+
+  "flex-layout.col#home-col02-banners-03":{
+    "children":[
+      "image#home-banner-07"
+    ],
+    "props":{
+      "width": "grow",
+      "blockClass":"ColLargeGalleryGrid",
+      "horizontalAlign":"right"
+    }
+  },
+
+  "flex-layout.row#home-row-banners-04":{
+    "children":[
+      "flex-layout.col#home-col01-banners-04",
+      "flex-layout.col#home-col02-banners-04"
+    ],
+    "props":{
+      "blockClass":"rowGalleryGrid"
+    }
+  },
+
+  "flex-layout.col#home-col01-banners-04":{
+    "children":[
+      "image#home-banner-07"
+    ],
+    "props":{
+      "width": "grow",
+      "blockClass":"ColSmallGalleryGrid"
+    }
+  },
+
+  "flex-layout.col#home-col02-banners-04":{
+    "children":[
+      "flex-layout.row#home-subrow-banners-04"
+    ],
+    "props":{
+      "width": "41%",
+      "blockClass":["ColSmallGalleryGrid","ColSmallGalleryGridRight"]
+    }
+  },
+
+  "flex-layout.row#home-subrow-banners-04":{
+    "children":[
+      "image#home-banner-08",
+      "image#home-banner-09"
+    ],
+    "props":{
+      "blockClass":"subRowGalleryGrid"
+    }
+  },
+
+  "flex-layout.row#home-row-banners-05":{
+    "children":[
+      "flex-layout.col#home-col01-banners-05",
+      "flex-layout.col#home-col02-banners-05"
+    ],
+    "props":{
+      "blockClass":"rowGalleryGrid"
+    }
+  },
+
+  "flex-layout.col#home-col01-banners-05":{
+    "children":[
+      "flex-layout.row#home-subrow-banners-05"
+    ],
+    "props":{
+      "width": "41%",
+      "blockClass":["ColSmallGalleryGrid","ColSmallGalleryGridLeft"]
+    }
+  },
+
+  "flex-layout.row#home-subrow-banners-05":{
+    "children":[
+      "image#home-banner-10",
+      "image#home-banner-11"
+    ],
+    "props":{
+      "blockClass":"subRowGalleryGrid"
+    }
+  },
+
+  "flex-layout.col#home-col02-banners-05":{
+    "children":[
+      "image#home-banner-12"
+    ],
+    "props":{
+      "width": "grow",
+      "blockClass":"ColLargeGalleryGrid",
+      "horizontalAlign":"right"
+    }
+  },
+
+  "image#home-banner-01":{
+    "props":{
+      "src": ""
+    }
+  },
+
+  "image#home-banner-02":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/unidos-somos-mas-fuertes__grande.jpg"
+    }
+  },
+
+  "image#home-banner-03":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/baja-unida.jpg"
+    }
+  },
+
+  "image#home-banner-04":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/protege-a-los-tuyos.jpg"
+    }
+  },
+
+  "image#home-banner-05":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/cuida-tu-mundo.jpg"
+    }
+  },
+
+  "image#home-banner-06":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/prueba-la-baja.jpg"
+    }
+  },
+
+  "image#home-banner-07":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/MaxGrill-736-X-392.jpg"
+    }
+  },
+
+  "image#home-banner-08":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/CocinaPronto-238-X-392.jpg"
+    }
+  },
+
+  "image#home-banner-09":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/CorteFino-238-X-392.jpg"
+    }
+  },
+
+  "image#home-banner-10":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/MaxSelect-238-X-392.jpg"
+    }
+  },
+
+  "image#home-banner-11":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/MaxGrill-238-X-392.jpg"
+    }
+  },
+
+  "image#home-banner-12":{
+    "props":{
+      "src": "https://calimaxmx.vtexassets.com/arquivos/corte-fino-736-392.jpg"
+    }
+  },
+  
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots":"mobileOnly",
+      "blockClass": "shelf"
+    }
+  },
+
+  "flex-layout.row#shelf-title-2":{
+    "children":["rich-text#shelf-title-2"],
+    "props":{
+      "blockClass":"shelf-title-row"
+    }
+  },
+
+  "rich-text#shelf-title-2": {
+    "props": {
+      "text": "## Lo mejor para tu cuidado",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#tab-layout":{
+    "children":["tab-layout#home-tabs"],
+    "props":{
+      "blockClass":"row-tab-layout"
+    }
+  },
+
+  "tab-layout#home-tabs": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2",
+      "tab-list.item#home3"
+      ]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "Exquisito para tu mesa",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Para compartir"
+    }
+  },
+  "tab-list.item#home3": {
+    "props": {
+      "tabId": "home3",
+      "label": "Los más frescos"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#home1",
+      "tab-content.item#home2",
+      "tab-content.item#home3"
+    ]
+  },
+  "tab-content.item#home1": {
+    "children": [
+      "list-context.product-list"
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": [
+      "list-context.product-list"
+    ],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+
+  "tab-content.item#home3": {
+    "children": [
+      "list-context.product-list"
+    ],
+    "props": {
+      "tabId": "home3"
+    }
+  },
+
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"]
+  },
+
+  "flex-layout.row#shelf-title-3":{
+    "children":["rich-text#shelf-title-3"],
+    "props":{
+      "blockClass":"shelf-title-row"
+    }
+  },
+
+  "rich-text#shelf-title-3": {
+    "props": {
+      "text": "## Disfruta de las mejores marcas",
+      "blockClass": "shelfTitle"
+    }
+  }
+
+} 

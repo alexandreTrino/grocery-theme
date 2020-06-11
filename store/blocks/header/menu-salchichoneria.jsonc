@@ -1,0 +1,141 @@
+{
+    "menu-item#category-salchichoneria": {
+      "props": {
+        "id": "menu-item-category-salchichoneria",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "salchichoneria",
+          "text": "Salchichoneria"
+        },
+        "iconProps": {
+          "id": "salchichoneria",
+          "size": 20,
+          "viewBox": "0 0 19 19",
+          "activeClassName": "vtex-icon-menu",
+          "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#category-salchichoneria"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#category-salchichoneria": {
+      "props": {
+        "width": "auto",
+        "height": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-salchichoneria"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-salchichoneria": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#salchichoneria-ver-todos",
+        "menu-item#salchichoneria-chorizo",
+        "menu-item#salchichoneria-jamones",
+        "menu-item#salchichoneria-mortadelas",
+        "menu-item#salchichoneria-salamis",
+        "menu-item#salchichoneria-salchicha"
+      ]
+    },
+  
+    "menu-item#salchichoneria-ver-todos": {
+      "props": {
+        "id": "menu-item-salchichoneria-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          "href": "/salchichoneria",
+          "noFollow": false,
+          "tagTitle": "Ver Todos",
+          "text": "Ver Todos"
+        }
+      }
+    },
+    "menu-item#salchichoneria-chorizo": {
+        "props": {
+            "id": "menu-item-salchichoneria-chorizo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/chorizo",
+                "noFollow": false,
+                "tagTitle": "Chorizo",
+                "text": "Chorizo"
+            }
+        }
+    },
+    "menu-item#salchichoneria-jamones": {
+        "props": {
+            "id": "menu-item-salchichoneria-jamones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/jamones",
+                "noFollow": false,
+                "tagTitle": "Jamones",
+                "text": "Jamones"
+            }
+        }
+    },
+    "menu-item#salchichoneria-mortadelas": {
+        "props": {
+            "id": "menu-item-salchichoneria-mortadelas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/mortadelas",
+                "noFollow": false,
+                "tagTitle": "Mortadelas",
+                "text": "Mortadelas"
+            }
+        }
+    },
+    "menu-item#salchichoneria-salamis": {
+        "props": {
+            "id": "menu-item-salchichoneria-salamis",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/salamis",
+                "noFollow": false,
+                "tagTitle": "Salamis",
+                "text": "Salamis"
+            }
+        }
+    },
+    "menu-item#salchichoneria-salchicha": {
+        "props": {
+            "id": "menu-item-salchichoneria-salchicha",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/salchicha",
+                "noFollow": false,
+                "tagTitle": "Salchicha",
+                "text": "Salchicha"
+            }
+        }
+    }
+
+}

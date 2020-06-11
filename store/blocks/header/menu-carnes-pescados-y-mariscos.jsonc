@@ -1,0 +1,125 @@
+{
+    "menu-item#category-carnes-pescados-y-mariscos": {
+      "props": {
+        "id": "menu-item-category-carnes-pescados-y-mariscos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "carnes-pescados-y-mariscos",
+          "text": "Carnes, Pescados y Mariscos"
+        },
+        "iconProps": {
+          "id": "carnes-pescados-y-mariscos",
+          "size": 20,
+          "viewBox": "0 0 17 17",
+          "activeClassName": "vtex-icon-menu",
+          "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#category-carnes-pescados-y-mariscos"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#category-carnes-pescados-y-mariscos": {
+      "props": {
+        "width": "auto",
+        "height": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-carnes-pescados-y-mariscos"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-carnes-pescados-y-mariscos": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#carnes-pescados-y-mariscos-ver-todos",
+        "menu-item#carnes-pescados-y-mariscos-aves",
+        "menu-item#carnes-pescados-y-mariscos-carne-de-cerdo",
+        "menu-item#carnes-pescados-y-mariscos-pescados",
+        "menu-item#carnes-pescados-y-mariscos-res"
+      ]
+    },
+  
+    "menu-item#carnes-pescados-y-mariscos-ver-todos": {
+      "props": {
+        "id": "menu-item-carnes-pescados-y-mariscos-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          "href": "/carnes-pescados-y-mariscos",
+          "noFollow": false,
+          "tagTitle": "Ver Todos",
+          "text": "Ver Todos"
+        }
+      }
+    },
+    "menu-item#carnes-pescados-y-mariscos-aves": {
+      "props": {
+        "id": "menu-item-carnes-pescados-y-mariscos-aves",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/carnes-pescados-y-mariscos/aves",
+          "noFollow": false,
+          "tagTitle": "Aves",
+          "text": "Aves"
+        }
+      }
+    },
+    "menu-item#carnes-pescados-y-mariscos-carne-de-cerdo": {
+        "props": {
+            "id": "menu-item-carnes-pescados-y-mariscos-carne-de-cerdo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/carnes-pescados-y-mariscos/carne-de-cerdo",
+            "noFollow": false,
+            "tagTitle": "Carne de Cerdo",
+            "text": "Carne de Cerdo"
+            }
+        }
+    },
+    "menu-item#carnes-pescados-y-mariscos-pescados": {
+        "props": {
+            "id": "menu-item-carnes-pescados-y-mariscos-pescados",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/carnes-pescados-y-mariscos/pescados",
+            "noFollow": false,
+            "tagTitle": "Pescados",
+            "text": "Pescados"
+            }
+        }
+    },
+    "menu-item#carnes-pescados-y-mariscos-res": {
+        "props": {
+            "id": "menu-item-carnes-pescados-y-mariscos-res",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/carnes-pescados-y-mariscos/res",
+            "noFollow": false,
+            "tagTitle": "Res",
+            "text": "Res"
+            }
+        }
+    }
+         
+}

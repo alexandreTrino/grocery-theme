@@ -1,0 +1,109 @@
+{
+    "menu-item#category-cocina-pronto": {
+      "props": {
+        "id": "menu-item-category-cocina-pronto",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "cocina-pronto",
+          "text": "Cocina Pronto"
+        },
+        "iconProps": {
+          "id": "cocina-pronto",
+          "size": 19,
+          "viewBox": "0 0 23 23",
+          "activeClassName": "vtex-icon-menu",
+          "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#category-cocina-pronto"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#category-cocina-pronto": {
+      "props": {
+        "width": "auto",
+        "height": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-cocina-pronto"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-cocina-pronto": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#cocina-pronto-ver-todos",
+        "menu-item#cocina-pronto-fruta",
+        "menu-item#cocina-pronto-mixto",
+        "menu-item#cocina-pronto-verdura"
+      ]
+    },
+  
+    "menu-item#cocina-pronto-ver-todos": {
+      "props": {
+        "id": "menu-item-cocina-pronto-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cocina-pronto",
+          "noFollow": false,
+          "tagTitle": "Ver Todos",
+          "text": "Ver Todos"
+        }
+      }
+    },
+    "menu-item#cocina-pronto-fruta": {
+        "props": {
+            "id": "menu-item-cocina-pronto-fruta",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cocina-pronto/fruta",
+                "noFollow": false,
+                "tagTitle": "Fruta",
+                "text": "Fruta"
+            }
+        }
+    },
+    "menu-item#cocina-pronto-mixto": {
+        "props": {
+            "id": "menu-item-cocina-pronto-mixto",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cocina-pronto/mixto",
+                "noFollow": false,
+                "tagTitle": "Mixto",
+                "text": "Mixto"
+            }
+        }
+    },
+    "menu-item#cocina-pronto-verdura": {
+        "props": {
+            "id": "menu-item-cocina-pronto-verdura",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cocina-pronto/verdura",
+                "noFollow": false,
+                "tagTitle": "Verdura",
+                "text": "Verdura"
+            }
+        }
+    }
+    
+}

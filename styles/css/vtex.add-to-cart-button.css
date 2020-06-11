@@ -1,0 +1,19 @@
+.buttonText{
+    font-size: 13px;
+    color:#fff
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-plp-list) .buttonText{
+    font-size: 11px;
+}
+
+@media only screen and (max-width:1024px){
+    .buttonDataContainer .buttonText{
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    :global(.vtex-product-summary-2-x-element) :global(.vtex-button){
+        width: 100%!important;
+    }
+}

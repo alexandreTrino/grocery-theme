@@ -1,0 +1,22 @@
+.menuIcon{
+    margin-top: -2px;
+}
+
+.closeIconButton{
+    display: none;
+}
+
+.openIconContainer{
+    color: white
+}
+
+.openIconContainer{
+    transition: all .12s linear;
+    border:1px solid transparent;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.openIconContainer:hover{
+    border-color: rgba(255,255,255,.6)
+}

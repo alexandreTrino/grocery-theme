@@ -1,0 +1,157 @@
+{
+    "menu-item#category-alimentos-congelados": {
+      "props": {
+        "id": "menu-item-category-alimentos-congelados",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "alimentos-congelados",
+          "text": "Alimentos Congelados"
+        },
+        "iconProps": {
+          "id": "alimentos-congelados",
+          "size": 22,
+          "viewBox": "0 0 18 18",
+          "activeClassName": "vtex-icon-menu",
+          "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#category-alimentos-congelados"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#category-alimentos-congelados": {
+      "props": {
+        "width": "auto",
+        "height": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-alimentos-congelados"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-alimentos-congelados": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#alimentos-congelados-ver-todos",
+        "menu-item#alimentos-congelados-carnes",
+        "menu-item#alimentos-congelados-comidas",
+        "menu-item#alimentos-congelados-hielo",
+        "menu-item#alimentos-congelados-nieves",
+        "menu-item#alimentos-congelados-pescados",
+        "menu-item#alimentos-congelados-verduras"
+      ]
+    },
+  
+    "menu-item#alimentos-congelados-ver-todos": {
+      "props": {
+        "id": "menu-item-alimentos-congelados-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          "href": "/alimentos-congelados",
+          "noFollow": false,
+          "tagTitle": "Ver Todos",
+          "text": "Ver Todos"
+        }
+      }
+    },
+    "menu-item#alimentos-congelados-carnes": {
+        "props": {
+            "id": "menu-item-alimentos-congelados-carnes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/carnes",
+                "noFollow": false,
+                "tagTitle": "Carnes",
+                "text": "Carnes"
+            }
+        }
+    },
+    "menu-item#alimentos-congelados-comidas": {
+        "props": {
+            "id": "menu-item-alimentos-congelados-comidas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/comidas",
+                "noFollow": false,
+                "tagTitle": "Comidas",
+                "text": "Comidas"
+            }
+        }
+    },
+    "menu-item#alimentos-congelados-hielo": {
+        "props": {
+            "id": "menu-item-alimentos-congelados-hielo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/hielo",
+                "noFollow": false,
+                "tagTitle": "Hielo",
+                "text": "Hielo"
+            }
+        }
+    },
+    "menu-item#alimentos-congelados-nieves": {
+        "props": {
+            "id": "menu-item-alimentos-congelados-nieves",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/nieves",
+                "noFollow": false,
+                "tagTitle": "Nieves",
+                "text": "Nieves"
+            }
+        }
+    },
+    "menu-item#alimentos-congelados-pescados": {
+        "props": {
+            "id": "menu-item-alimentos-congelados-pescados",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/pescados",
+                "noFollow": false,
+                "tagTitle": "Pescados",
+                "text": "Pescados"
+            }
+        }
+    },
+    "menu-item#alimentos-congelados-verduras": {
+        "props": {
+            "id": "menu-item-alimentos-congelados-verduras",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/verduras",
+                "noFollow": false,
+                "tagTitle": "Verduras",
+                "text": "Verduras"
+            }
+        }
+    }    
+
+}

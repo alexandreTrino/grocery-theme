@@ -1,0 +1,125 @@
+{
+    "menu-item#category-gourmet": {
+      "props": {
+        "id": "menu-item-category-gourmet",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "gourmet",
+          "text": "Gourmet"
+        },
+        "iconProps": {
+          "id": "gourmet",
+          "size": 20,
+          "viewBox": "0 0 24 24",
+          "activeClassName": "vtex-icon-menu",
+          "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#category-gourmet"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#category-gourmet": {
+      "props": {
+        "width": "auto",
+        "height": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-gourmet"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-gourmet": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#gourmet-ver-todos",
+        "menu-item#gourmet-snacks",
+        "menu-item#gourmet-comida",
+        "menu-item#gourmet-desayuno",
+        "menu-item#gourmet-mundo-europeo"
+      ]
+    },
+  
+    "menu-item#gourmet-ver-todos": {
+      "props": {
+        "id": "menu-item-gourmet-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gourmet",
+          "noFollow": false,
+          "tagTitle": "Ver Todos",
+          "text": "Ver Todos"
+        }
+      }
+    },
+    "menu-item#gourmet-snacks": {
+        "props": {
+            "id": "menu-item-gourmet-snacks",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/gourmet/snacks",
+                "noFollow": false,
+                "tagTitle": "Snacks",
+                "text": "Snacks"
+            }
+        }
+    },
+    "menu-item#gourmet-comida": {
+        "props": {
+            "id": "menu-item-gourmet-comida",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/gourmet/comida",
+                "noFollow": false,
+                "tagTitle": "Comida",
+                "text": "Comida"
+            }
+        }
+    },
+    "menu-item#gourmet-desayuno": {
+        "props": {
+            "id": "menu-item-gourmet-desayuno",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/gourmet/desayuno",
+                "noFollow": false,
+                "tagTitle": "Desayuno",
+                "text": "Desayuno"
+            }
+        }
+    },
+    "menu-item#gourmet-mundo-europeo": {
+        "props": {
+            "id": "menu-item-gourmet-mundo-europeo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/gourmet/mundo-europeo",
+                "noFollow": false,
+                "tagTitle": "Mundo Europeo",
+                "text": "Mundo Europeo"
+            }
+        }
+    }
+    
+}

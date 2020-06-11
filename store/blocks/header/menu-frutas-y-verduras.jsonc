@@ -1,0 +1,140 @@
+{
+    "menu-item#category-frutas-y-verduras": {
+      "props": {
+        "id": "menu-item-category-frutas-y-verduras",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "frutas-y-verduras",
+          "text": "Frutas y Verduras"
+        },
+        "iconProps": {
+          "id": "frutas-verduras",
+          "size": 19,
+          "viewBox": "0 0 22 19",
+          "activeClassName": "vtex-icon-menu",
+          "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#category-frutas-y-verduras"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#category-frutas-y-verduras": {
+      "props": {
+        "width": "auto",
+        "height": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-frutas-y-verduras"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-frutas-y-verduras": {
+    "props": {
+        "orientation": "vertical"
+    },
+    "children": [
+        "menu-item#frutas-y-verduras-ver-todos",
+        "menu-item#frutas-y-verduras-desinfectantes",
+        "menu-item#frutas-y-verduras-fruta",
+        "menu-item#frutas-y-verduras-procesados",
+        "menu-item#frutas-y-verduras-vegetales",
+        "menu-item#frutas-y-verduras-verdura"
+        ]
+    },
+  
+    "menu-item#frutas-y-verduras-ver-todos": {
+    "props": {
+        "id": "menu-item-frutas-y-verduras-ver-todos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {
+        "type": "internal",
+        "href": "/frutas-y-verduras",
+        "noFollow": false,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+        }
+    }
+    },
+    "menu-item#frutas-y-verduras-desinfectantes": {
+      "props": {
+        "id": "menu-item-frutas-y-verduras-desinfectantes",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/frutas-y-verduras/desinfectantes",
+          "noFollow": false,
+          "tagTitle": "Desinfectantes",
+          "text": "Desinfectantes"
+        }
+      }
+    },
+    "menu-item#frutas-y-verduras-fruta": {
+        "props": {
+            "id": "menu-item-frutas-y-verduras-fruta",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/frutas-y-verduras/fruta",
+            "noFollow": false,
+            "tagTitle": "Fruta",
+            "text": "Fruta"
+            }
+        }
+    },
+    "menu-item#frutas-y-verduras-procesados": {
+        "props": {
+            "id": "menu-item-frutas-y-verduras-procesados",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/frutas-y-verduras/procesados",
+            "noFollow": false,
+            "tagTitle": "procesados",
+            "text": "procesados"
+            }
+        }
+    },
+    "menu-item#frutas-y-verduras-vegetales": {
+        "props": {
+            "id": "menu-item-frutas-y-verduras-vegetales",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/frutas-y-verduras/vegetales",
+            "noFollow": false,
+            "tagTitle": "Vegetales",
+            "text": "Vegetales"
+            }
+        }
+    },
+    "menu-item#frutas-y-verduras-verdura": {
+        "props": {
+            "id": "menu-item-frutas-y-verduras-verdura",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/frutas-y-verduras/verdura",
+            "noFollow": false,
+            "tagTitle": "Verdura",
+            "text": "Verdura"
+            }
+        }
+    }
+}

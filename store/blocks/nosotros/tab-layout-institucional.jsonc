@@ -1,0 +1,93 @@
+{
+    "tab-layout#institucional": {
+        "children": [
+            "tab-list#institucional",
+            "tab-content#institucional"
+        ],
+        "props": {
+            "blockClass": "tab-institucional",
+            "defaultActiveTabId": "proposito"
+        }
+    },
+    "tab-list#institucional": {
+        "children": [
+            "tab-list.item#proposito",
+            "tab-list.item#vision",
+            "tab-list.item#valores"
+        ],
+        "props":{
+            "blockClass":"tablist-institucional"
+        }
+    },
+    "tab-list.item#proposito": {
+        "props": {
+            "tabId": "proposito",
+            "label": "Proposito",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#vision": {
+        "props": {
+            "tabId": "vision",
+            "label": "Visión"
+        }
+    },
+    "tab-list.item#valores": {
+        "props": {
+            "tabId": "valores",
+            "label": "Valores"
+        }
+    },
+    "tab-content#institucional": {
+        "children": [
+            "tab-content.item#proposito",
+            "tab-content.item#vision",
+            "tab-content.item#valores"
+        ]
+    },
+    "tab-content.item#proposito": {
+        "children": [
+            "rich-text#proposito"
+        ],
+        "props": {
+            "tabId": "proposito"
+        }
+    },
+    "tab-content.item#vision": {
+        "children": [
+            "rich-text#vision"
+        ],
+        "props": {
+            "tabId": "vision"
+        }
+    },
+    "tab-content.item#valores": {
+        "children": [
+            "rich-text#valores"
+        ],
+        "props": {
+            "tabId": "valores"
+        }
+    },
+
+
+
+    "rich-text#proposito": {
+        "props": {
+            "text": "Inspirar y contribuir a una mejor calidad de vida entre nuestros clientes, colaboradores y socios comerciales.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#vision": {
+        "props": {
+            "text": "Ser la cadena de autoservicio preferida, más querida y rentable del noroeste de México.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#valores": {
+        "props": {
+            "text": "-- Honestidad - Responsabilidad - Servicio - Trabajo en equipo",
+            "blockClass": "about"
+        }
+    }
+}

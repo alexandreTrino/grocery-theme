@@ -1,0 +1,364 @@
+{
+  "menu-item#category-despensa": {
+    "props": {
+      "id": "menu-item-category-despensa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Despensa",
+        "text": "Despensa"
+      },
+      "iconProps": {
+        "id": "despensa",
+        "size": 21,
+        "viewBox": "0 0 23 24",
+        "activeClassName": "vtex-icon-menu",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#category-despensa"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#category-despensa": {
+    "props": {
+      "width": "auto",
+      "height": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-despensa"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-despensa": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#despensa-ver-todos",
+      "menu-item#despensa-aceites",
+      "menu-item#despensa-azucar",
+      "menu-item#despensa-botanas-y-fruta-seca",
+      "menu-item#despensa-cafe-y-te",
+      "menu-item#despensa-cajetas",
+      "menu-item#despensa-cereales",
+      "menu-item#despensa-condimentos",
+      "menu-item#despensa-dulces",
+      "menu-item#despensa-enlatados",
+      "menu-item#despensa-flan-y-gelatina",
+      "menu-item#despensa-galletas",
+      "menu-item#despensa-granos",
+      "menu-item#despensa-harinas",
+      "menu-item#despensa-mieles",
+      "menu-item#despensa-pan",
+      "menu-item#despensa-postres-y-reposteria",
+      "menu-item#despensa-sopas-y-pastas",
+      "menu-item#despensa-tostadas-y-tortillas"
+    ]
+  },
+
+  "menu-item#despensa-ver-todos": {
+    "props": {
+      "id": "menu-item-despensa-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa",
+        "noFollow": false,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+      }
+    }
+  },
+  "menu-item#despensa-aceites": {
+    "props": {
+      "id": "menu-item-despensa-aceites",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/aceites",
+        "noFollow": false,
+        "tagTitle": "Aceites",
+        "text": "Aceites"
+      }
+    }
+  },
+  "menu-item#despensa-azucar": {
+    "props": {
+      "id": "menu-item-despensa-azucar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/azucar",
+        "noFollow": false,
+        "tagTitle": "Azucar",
+        "text": "Azucar"
+      }
+    }
+  },
+  "menu-item#despensa-botanas-y-fruta-seca": {
+    "props": {
+      "id": "menu-item-despensa-botanas-y-frutas-secas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/botanas-y-fruta-seca",
+        "noFollow": false,
+        "tagTitle": "Botanas y Frutas Seca",
+        "text": "Botanas y Frutas Seca"
+      }
+    }
+  },
+  "menu-item#despensa-cafe-y-te": {
+    "props": {
+      "id": "menu-item-despensa-cafe-y-te",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/cafe-y-te",
+        "noFollow": false,
+        "tagTitle": "Café y Té",
+        "text": "Café y Té"
+      }
+    }
+  },  
+  "menu-item#despensa-cajetas": {
+    "props": {
+      "id": "menu-item-despensa-cajetas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/cajetas",
+        "noFollow": false,
+        "tagTitle": "Cajetas",
+        "text": "Cajetas"
+      }
+    }
+  },
+  "menu-item#despensa-cereales": {
+    "props": {
+      "id": "menu-item-despensa-cereales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa-cereales",
+        "noFollow": false,
+        "tagTitle": "Cereales",
+        "text": "Cereales"
+      }
+    }
+  },
+  "menu-item#despensa-condimentos": {
+    "props": {
+      "id": "menu-item-despensa-condimentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/condimentos",
+        "noFollow": false,
+        "tagTitle": "Condimentos",
+        "text": "Condimentos"
+      }
+    }
+  },
+  "menu-item#despensa-dulces": {
+    "props": {
+      "id": "menu-item-despensa-dulces",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/dulces",
+        "noFollow": false,
+        "tagTitle": "Dulces",
+        "text": "Dulces"
+      }
+    }
+  },
+  "menu-item#despensa-enlatados": {
+    "props": {
+      "id": "menu-item-despensa-enlatados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/enlatados",
+        "noFollow": false,
+        "tagTitle": "Enlatados",
+        "text": "Enlatados"
+      }
+    }
+  },
+  "menu-item#despensa-flan-y-gelatina": {
+    "props": {
+      "id": "menu-item-despensa-flan-y-gelatina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/flan-y-gelatina",
+        "noFollow": false,
+        "tagTitle": "Flan y Gelatina",
+        "text": "Flan y Gelatina"
+      }
+    }
+  },
+  "menu-item#despensa-galletas": {
+    "props": {
+      "id": "menu-item-despensa-galletas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/galletas",
+        "noFollow": false,
+        "tagTitle": "Galletas",
+        "text": "Galletas"
+      }
+    }
+  },
+  "menu-item#despensa-granos": {
+    "props": {
+      "id": "menu-item-despensa-granos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/granos",
+        "noFollow": false,
+        "tagTitle": "Granos",
+        "text": "Granos"
+      }
+    }
+  },
+  "menu-item#despensa-harinas": {
+    "props": {
+      "id": "menu-item-despensa-harinas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/harinas",
+        "noFollow": false,
+        "tagTitle": "Harinas",
+        "text": "Harinas"
+      }
+    }
+  },
+  "menu-item#despensa-mieles": {
+    "props": {
+      "id": "menu-item-despensa-mieles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/mieles",
+        "noFollow": false,
+        "tagTitle": "Mieles",
+        "text": "Mieles"
+      }
+    }
+  },
+  "menu-item#despensa-pan": {
+    "props": {
+      "id": "menu-item-despensa-pan",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/pan",
+        "noFollow": false,
+        "tagTitle": "Pan",
+        "text": "Pan"
+      }
+    }
+  },
+  "menu-item#despensa-postres-y-reposteria": {
+    "props": {
+      "id": "menu-item-despensa-postres-y-reposteria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/postres-y-reposteria",
+        "noFollow": false,
+        "tagTitle": "Postres y Reposteria",
+        "text": "Postres y Reposteria"
+      }
+    }
+  },
+  "menu-item#despensa-salsas-y-aderezos": {
+    "props": {
+      "id": "menu-item-despensa-salsas-y-aderezos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/salsas-y-aderezos",
+        "noFollow": false,
+        "tagTitle": "Salsas y Aderezos",
+        "text": "Salsas y Aderezos"
+      }
+    }
+  },
+  "menu-item#despensa-sopas-y-pastas": {
+    "props": {
+      "id": "menu-item-despensa-sopas-y-pastas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/sopas-y-pastas",
+        "noFollow": false,
+        "tagTitle": "Sopas y Pastas",
+        "text": "Sopas y Pastas"
+      }
+    }
+  },
+  "menu-item#despensa-tostadas-y-tortillas": {
+    "props": {
+      "id": "menu-item-despensa-tostadas-y-tortillas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa/tostadas-y-tortillas",
+        "noFollow": false,
+        "tagTitle": "Tostadas y Tortillas",
+        "text": "Tostadas y Tortillas"
+      }
+    }
+  }
+
+}

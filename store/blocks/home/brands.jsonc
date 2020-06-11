@@ -1,0 +1,186 @@
+{
+    // Brand carousel
+  "flex-layout.row#brand1": {
+    "children": [
+      "flex-layout.col#brands1"
+    ]
+  },
+
+  "flex-layout.row#brand2": {
+    "children": [
+      "flex-layout.col#brands2"
+    ]
+  },
+  
+  "flex-layout.row#brand3": {
+    "children": [
+      "flex-layout.col#brands3"
+    ]
+  },
+ 
+  "flex-layout.row#brand4": {
+    "children": [
+      "flex-layout.col#brands4"
+    ]
+  },
+  
+  "flex-layout.row#brand5": {
+    "children": [
+
+      "flex-layout.col#brands5"
+    ]
+  },
+  
+  "flex-layout.row#brand6": {
+    "children": [
+      "flex-layout.col#brands6"
+    ]
+  },
+  
+  "flex-layout.row#brand7": {
+    "children": [
+      "flex-layout.col#brands7"
+    ]
+  },
+
+  "flex-layout.col#brands1": {
+    "children": [
+      "image#brand1",
+      "rich-text#brand1"
+    ]
+  },
+  "image#brand1": {
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200212_carulla_ic_home_despensa___f24a726536dd75c90230a90a4134912f.png",
+      "link": "/despensa",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand1": {
+    "props": {
+      "text": "Despensa",
+      "blockClass": "brands"
+    }
+  },
+
+  "flex-layout.col#brands2": {
+    "children": [
+      "image#brand2",
+      "rich-text#brand2"
+    ]
+  },
+  "image#brand2": {
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200212_carulla_ic_home_lacteos_refrigerados___916d8efc8151d5ce903e46fb033e7593.jpg",
+      "link": "/lacteos-y-huevos",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand2": {
+    "props": {
+      "text": "Lácteos y Huevos",
+      "blockClass": "brands"
+    }
+  },
+  
+  "flex-layout.col#brands3": {
+    "children": [
+      "image#brand3",
+      "rich-text#brand3"
+    ]
+  },
+  "image#brand3": {
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/18-enlatados___f32e94d5f24153442ec3225ea56efdfb.jpg",
+      "link": "/carnes-pescados-y-mariscos",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand3": {
+    "props": {
+      "text": "Carnes, Pescados y Maricos",
+      "blockClass": "brands"
+    }
+  },
+
+  "flex-layout.col#brands4": {
+    "children": [
+      "image#brand4",
+      "rich-text#brand4"
+    ]
+  },
+  "image#brand4": {
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200212_carulla_ic_home_frutas_verduras___7efa247b305ac4255606411933eaf9e7.png",
+      "link": "/frutas-y-verduras",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand4": {
+    "props": {
+      "text": "Frutas y Verduras",
+      "blockClass": "brands"
+    }
+  },  
+
+  "flex-layout.col#brands5": {
+    "children": [
+      "image#brand5",
+      "rich-text#brand5"
+    ]
+  },
+  "image#brand5": {
+    "props": {
+      "src": "https://calimaxmx.vtexassets.com/arquivos/vinos-y-licores.png",
+      "link": "/cerveza-vinos-y-licores",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand5": {
+    "props": {
+      "text": "Cerveza, Vinos y Licores",
+      "blockClass": "brands"
+    }
+  }, 
+
+  "flex-layout.col#brands6": {
+    "children": [
+      "image#brand6",
+      "rich-text#brand6"
+    ]
+  },
+  "image#brand6": {
+    "props": {
+      "src": "https://calimaxmx.vtexassets.com/arquivos/cuidados-personales-y-belleza.png",
+      "link": "/cuidados-personales-y-belleza",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand6": {
+    "props": {
+      "text": "Cuidados personales y Belleza",
+      "blockClass": "brands"
+    }
+  }, 
+
+  "flex-layout.col#brands7": {
+    "children": [
+      "image#brand7",
+      "rich-text#brand7"
+    ]
+  },
+  "image#brand7": {
+    "props": {
+      "src": "https://calimaxmx.vtexassets.com/arquivos/limpieza-hogar.png",
+      "link": "/limpieza-y-hogar",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand7": {
+    "props": {
+      "text": "Limpieza y Hogar",
+      "blockClass": "brands"
+    }
+  }
+
+}
