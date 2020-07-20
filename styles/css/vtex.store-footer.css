@@ -54,3 +54,18 @@
 .poweredByImage{
   filter:brightness(100)
 }
+
+.flexCol--footer-last-col{
+  align-items: flex-start;
+}
+
+.flexCol--footerColumnItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexColChild--footerColumnItem {
+    width: fit-content;
+    padding-left: 20px;
+}

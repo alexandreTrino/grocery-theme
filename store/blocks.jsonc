@@ -38,6 +38,7 @@
   },
   "product-summary.shelf": {
     "children": [
+      "flex-layout.row#row-bt-shelf-wishlist",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-summary-space",
@@ -47,6 +48,21 @@
       "flex-layout.row#shelf-footer"
     ]
   },
+
+  "flex-layout.row#row-bt-shelf-wishlist":{
+    "children":["flex-layout.col#col-bt-shelf-wishlist"],
+    "props":{
+      "blockClass":["bt-whishlist","bt-shelf-wishlist"]
+    }
+  },
+
+  "flex-layout.col#col-bt-shelf-wishlist":{
+    "children":["add-to-list-btn"],
+    "props":{
+      "blockClass":["bt-whishlist","bt-shelf-wishlist"]
+    }
+  },
+
 
   "flex-layout.row#shelf-footer":{
     "children":[

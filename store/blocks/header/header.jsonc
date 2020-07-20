@@ -82,6 +82,7 @@
       "flex-layout.col#search",
       "flex-layout.col#store-selector",
       "flex-layout.col#login",
+      "flex-layout.col#header-wishlist",
       "flex-layout.col#minicart"
     ]
   },
@@ -109,6 +110,19 @@
   },
   "store-selector#header":{
     "props":{}
+  },
+  "flex-layout.col#header-wishlist": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass":"col-header-wislist"
+    },
+    "children": ["image#icon-wishlist"]
+  },
+  "image#icon-wishlist":{
+    "props":{
+      "src": "assets/icon-wishlist-store.svg",
+      "link": "/wishlist"
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {

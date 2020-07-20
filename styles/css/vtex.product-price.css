@@ -7,6 +7,8 @@
 .sellingPrice {
   color: #3f3f40;
   font-size: 1.25rem;
+  display: block;
+  margin-bottom: 7px;
 }
 
 .sellingPriceValue {
@@ -17,6 +19,7 @@
 .installments {
   color: #727273;
   margin-bottom: 1rem;
+  display: none!important;
 }
 
 .savings {
@@ -27,7 +30,7 @@
 .sellingPriceValue--summary {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #3f3f40000;
+  color: #3f3f40;
 }
 
 .savings--summary {
@@ -46,14 +49,25 @@
   padding-right: 0.5rem;
 }
 
-.listPrice--summary {
+.installmentsNumber--summary, 
+.installmentValue--summary {
   margin-bottom: 0.25rem;
-  font-size: .875rem;
+  font-size: .875rem!important;
 }
 
 .installments--summary {
   margin-bottom: 1rem;
   margin-top:5px;
+  font-size: 0px!important;
+}
+
+.installments--summary::before{
+  content:"En hasta ";
+  font-size: 0.875rem;
+}
+
+.installmentsNumber--summary::after{
+  content:"x ";
   font-size: 0.875rem;
 }
 
@@ -67,4 +81,5 @@
 .savings--summary{
   width: fit-content;
   padding: 0 10px;
+  height: 25px;
 }

@@ -6,3 +6,12 @@
 .galleryItem--search-gallery{
     padding: 0.50rem;
 }
+
+.filter__container--brand .filterTitle{
+    font-size: 0px;
+}
+
+.filter__container--brand .filterTitle::before{
+    content:"Marcas";
+    font-size: 1rem;
+}

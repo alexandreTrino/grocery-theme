@@ -11,7 +11,8 @@
   },
   "product-selling-price#summary": {
     "props": {
-      "blockClass": "summary"
+      "blockClass": "summary",
+      "showLabels": false
     }
   },
   "product-price-savings#summary": {
@@ -38,7 +39,8 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "marginBottom": 4
+      "marginBottom": 4,
+      "blockClass":"basePrice-savings"
     },
     "children": [
       "product-selling-price#summary",

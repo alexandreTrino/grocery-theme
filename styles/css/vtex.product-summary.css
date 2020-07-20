@@ -45,8 +45,8 @@
   border-radius: 0.25rem;
 }
 
-.imageNormal{
-  height: 100%!important;
+.imageStackContainer .imageNormal, .image{
+  height: auto!important;
   width: auto!important;
   margin: 0 auto;
 }
@@ -55,17 +55,27 @@
   padding: 0;
 }
 
-.element :global(.vtex-button){
-  background-color: #055d9e;
-  border-color:#055d9e;
+:global(.vtex-flex-layout-0-x-flexRowContent--row-footer-shelf) .element :global(.vtex-button){
+  background-color: #0066b3;
+  border-color:#0066b3;
   transition: all .12s linear;
   width:95%;
-  float:right
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--row-tab-layout)
-  .element 
-:global(.vtex-button){
+:global(.vtex-flex-layout-0-x-flexCol--bt-whishlist) :global(.vtex-button){
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 95;
+  background: rgba(255,255,255,.9);
+  width: 50px!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--bt-whishlist) :global(.vtex-button):hover{
+  border: 1px solid #f00!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-tab-layout) .element :global(.vtex-button){
     width: 100%;
 }
 
@@ -73,12 +83,11 @@
   padding: 0;
 }
 
-.element :global(.vtex-button):hover{
-  background-color: green!important;
-  border-color:green!important;
-}
-
-.element:hover :global(.vtex-button){
+:global(.vtex-flex-layout-0-x-flexRowContent--row-footer-shelf) .element:hover :global(.vtex-button){
   background-color: #0066b3;
   border-color:#0066b3;
+}
+
+.imageNormal{
+  height: auto!important;
 }

@@ -1,0 +1,13 @@
+.availabilityMessageText{
+    font-size: 0;
+}
+
+.availabilityMessageText::before{
+    content:"Revisar: \A - Minimo en compras: MXN 100. \A - El codigo postal debe ser váilido";
+    font-size: 12px;
+    white-space: pre-wrap;
+}
+
+.quantitySelector{
+    margin-bottom: 10px;
+}

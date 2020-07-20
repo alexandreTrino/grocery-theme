@@ -110,7 +110,7 @@
           "action-secondary": "#eef3f7",
           "link": "#0066b3",
           "emphasis": "#f71963",
-          "disabled": "#979899",
+          "disabled": "#000000",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
           "danger": "#ff4c4c",

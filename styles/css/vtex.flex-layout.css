@@ -265,3 +265,17 @@
 .flexRow--tab-layout__about-us{
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width:540px){
+  .flexRowContent--basePrice-savings{
+    flex-direction: column;
+  }
+}
+
+.flexRowContent--row-footer-shelf{
+  position: relative;
+}
+
+.flexRowContent--bt-shelf-wishlist{
+  position: relative;
+}

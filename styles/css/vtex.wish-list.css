@@ -1,0 +1,36 @@
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-btn-wishlist) .iconSize{
+    padding-left: 33px;
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    background: url("/arquivos/icon-wishlist.png") no-repeat left center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-btn-wishlist) .iconSize::after{
+    content:"Agregar a su lista de deseos";
+    font-size: .95rem;
+    text-transform: initial;
+    color: #09689c;
+    border-bottom: 1px solid #09689c;
+    padding-bottom: 3px;
+    transition: all .12s linear;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-btn-wishlist) :global(.vtex-wish-list-0-x-fill)::after{
+    content: "\00A1 Agregado a su lista de deseos!"!important
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-btn-wishlist) .wishlistIconContainer :global(.vtex-button){
+    transition: all .12s linear;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-btn-wishlist) .wishlistIconContainer :global(.vtex-button):hover{
+    background: transparent;
+    border: 1px solid #09689c
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-btn-wishlist) .wishlistIconContainer :global(.vtex-button):hover .iconSize::after{
+    padding: 0;
+    border: none
+}
